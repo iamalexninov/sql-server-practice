@@ -20,4 +20,3 @@ begin
 	where FirstName like '%' + @SearchString + '%' or 
 		  LastName like '%' + @SearchString + '%';
 end;
-
