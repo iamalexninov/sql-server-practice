@@ -6,7 +6,6 @@ Task: List all books in a specific category
 Should show: Title, Author Name, PublicationYear
 Practice: Multiple joins with string parameter
 */
-
 create procedure GetBooksByCategory
 	@CategoryName nvarchar(50)
 as
